@@ -66,7 +66,8 @@ public final class Column {
         INTEGER("integer"),
         REAL("real"),
         BOOLEAN("boolean"),
-        DATETIME("datetime");
+        DATETIME("datetime"),
+        BLOB("blob");
 
         final private String dataType;
 
